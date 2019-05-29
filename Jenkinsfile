@@ -17,6 +17,7 @@ pipeline {
        stage('test vad som händer') {
             steps {
                 bat 'npm run test --  --coverage'
+             }
         }
         stage('Deploy') {
             steps {
