@@ -12,7 +12,6 @@ pipeline {
         stage('Build Production files') {
             steps {
                 bat 'npm run build'
-                bat
             }
         }
         stage('Test') {
