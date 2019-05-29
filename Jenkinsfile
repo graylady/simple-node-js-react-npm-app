@@ -14,10 +14,9 @@ pipeline {
                 bat 'npm run build'
             }
         }
-        stage('Test') {
+       stage('test it') {
             steps {
-                echo 'Testing..'
-            }
+                bat 'npm run test'
         }
         stage('Deploy') {
             steps {
