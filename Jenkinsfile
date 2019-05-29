@@ -16,7 +16,7 @@ pipeline {
         }
        stage('test') {
             steps {
-                bat 'npm run test'
+                bat 'npm run test.. coverage'
         }
         stage('Deploy') {
             steps {
