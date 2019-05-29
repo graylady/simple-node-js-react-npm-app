@@ -14,7 +14,7 @@ pipeline {
                 bat 'npm run build'
             }
         }
-       stage('test it') {
+       stage('test') {
             steps {
                 bat 'npm run test'
         }
